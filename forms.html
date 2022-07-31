@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>KELVINO RESTAURANT</title>
+    <link rel="stylesheet" href="forms.css">
+  </head>
+  <body>
+    <h1>JOB APPLICATION</h1>
+    <h2>Registration Form</h2>
+    <p>Please fill out this form with the required information</p>
+
+    <form action="https://kelvino8860.github.io/Menu-html-css/">
+
+        <fieldset>
+          <label>Enter Your First Name: <input type="text" name="first-name" required>
+          </label>
+          <label>Enter Your Last Name: <input type="text" name="last-name" required>
+          </label>
+          <label>Enter Your Email: <input type="email" nam="email" required>
+          </label>
+          <label>Enter Your Phone Number: <input type="number" name="phone" minlength="10" maxlength="12" required>
+          </label>
+        </fieldset>
+
+        <fieldset>
+           <label><input class="inline" type="radio" name="account-type"> Male</label>
+           <label><input class="inline" type="radio" name="account-type"> Female</label>
+           <label><input class="inline" type="radio" name="account-type"> Other</label>
+           <label><input class="inline" type="checkbox" name="terms" required>
+             I accept the <a href="https://kelvino8860.github.io/Html-css/YouTube%20CloneProject/youtube.html" target="_blank">terms and conditions</a>
+          </label>
+        </fieldset>
+
+        <fieldset>
+          <label>Upload Your Profile Picture: <input type="file" name="file"></label>
+          <label>Upload Your CV: <input type="file" name="file"></label>
+          <label>Input Your Age(Years): <input type="number" min="18" max="40" name="age" required></label>
+          <label>How did you here about us?
+            <select name="referrer">
+              <option value="">(Select one)</option>
+              <option value="1">From a friend</option>
+              <option value="2">On social media</option>
+              <option value="3">On news-papers and magazines</option>
+              <option value="4">On television adverts</option>
+            </select>
+          </label>
+          <label>Provide a bio: <textarea name="bio" cols="30" rows="3" placeholder="I like coding on the beach..."></textarea></label>
+        </fieldset>
+
+        <label><input type="submit" value="submit"></label>
+    </form>
+  </body>
+</html>
